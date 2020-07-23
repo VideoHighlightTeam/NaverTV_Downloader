@@ -12,6 +12,7 @@ $ python naverTV_download.py file_name.txt resolution
 ```
 - file_name.txt : url, 저장할 이름이 저장된 txt파일
 - resolution : 저장할 해상도(144, 360, 480, 720, 1080)
+
 ## txt file format
 url1,save_file_name1
 url2,save_file_name2
@@ -25,3 +26,7 @@ https://tv.naver.com/v/12204239,T1 vs DWG 2세트
 
 ## Output
 Output File: save_file_name1.mp4, save_file_name2.mp4, ...
+
+## Cautions
+ - 파일 이름 중복될 시 오류발생
+ - csv파일 연동 및 텍스트파일 형식 바꾸고 싶으신 분들은 요청해주세요.
